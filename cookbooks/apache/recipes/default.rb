@@ -5,7 +5,7 @@
 # Copyright:: 2017, The Authors, All Rights Reserved.
 #install httpd package and start 
 if node ['platform_family'] == "rhel"
-	package = 'httpd'
+	package = "httpd"
 elsif node ['platform_family'] == "debian"
 	package = "apache"
 end
